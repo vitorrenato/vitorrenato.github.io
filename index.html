@@ -3,102 +3,85 @@
 <head>
   
   <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
   <title>Vitor Renato | Front End Developer</title>
   
-  <!--CDN Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- Compressed CSS -->
+<link rel="stylesheet" href="css/foundation.min.css">
   
-  <!--Style-->
-  <link rel="stylesheet" href="app.css">
+<!--Style-->
+<link rel="stylesheet" href="css/app.css">
 
 </head>
 <body>
+
   <header>
-    <div class="container">
-      
+    <div class="grid-container">
+      <!--Toggleable Menu-->
+      <nav>
+
+          <button id="dropdownMenuButton" type="button" class="sticky button"><span class="fas fa-bars"></span></button>
+          
+          <!--Navbar Header-->
+          <div id="navbarHeader">
+            <div>
+          
+              <ul class="vertical menu align-center">
+                <li><a href="">Home</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href=""><span class="fas fa-envelope"></span></a></li>
+              </ul>
+
+            </div>
+          </div>
+
+      </nav>
     </div>
-
-    <!--Toggleable Menu-->
-    <nav class="navbar">
-
-        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"><span class="fas fa-bars"></span></button>
-
-    </nav>
-
-    <!--Navbar Header-->
-    <div id="navbarHeader" class="collapse">
-      <div class="container">
-        
-        <ul class="navbar navbar-nav">
-          <li><a class="dropdown-item" href="">Home</a></li>
-          <li><a class="dropdown-item" href="">Portfolio</a></li>
-          <li><a class="dropdown-item" href=""><span class="fas fa-envelope"></span></a></li>
-        </ul>
-
-      </div>
-    </div>
-
   </header>
 
   <!--Portfolio-->
-  <main id="portfolio" class="container">
-    
-    <div class="">
+  <main>
+
+    <div class="grid-container">
       <img src="" alt="">
       <h1 class="text-center">Hi! I'm <span>Vitor</span></h1>
       <p class="text-center">
-        Sou formado em Desenvolvimento de Sistemas para Internet na Fatec Jales.
+        Sou formado em Desenvolvimento de Sistemas para Internet na Fatec Jales.<br>
         Atualmente trabalho como Designer Gráfico.
       </p>
+
+      <h3 class="text-center">Front End Developer</h3>
+      <p class="text-center">
+        <a href="mailto:vitorr585@gmail.com" class="button">Get in touch</a>
+      </p>
     </div>
+      
+    <div class="grid-container grid-x">
 
-    <div class="">
-      <h3>Front End Developer</h3>
-      <a class="btn btn-primary" href="#">Get in touch</a>
-    </div>
-
-    <div class="row">
-
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 1</p>
+      <div class="column small-12 medium-6 large-4">
+        <div class="card box">
+          <img src="http://www.odefensor.com.br/site/wp-content/uploads/2017/01/Imagem-da-Semana-1.jpg" alt="">
+          <div class="card-section">
+            <p>Text 1</p>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 2</p>
+      <div class="column small-12 medium-6 large-4">
+        <div class="card box">
+          <img src="http://www.odefensor.com.br/site/wp-content/uploads/2017/01/Imagem-da-Semana-1.jpg" alt="">
+          <div class="card-section">
+            <p>Text 2</p>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 3</p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 1</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 2</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="box">
-          <p>Text 3</p>
+      <div class="column small-12 medium-6 large-4">
+        <div class="card box">
+          <img src="http://www.odefensor.com.br/site/wp-content/uploads/2017/01/Imagem-da-Semana-1.jpg" alt="">
+          <div class="card-section">
+            <p>Text 3</p>
+          </div>
         </div>
       </div>
 
@@ -107,10 +90,8 @@
   </main>
 
   <footer>
-    <div class="container">
-      
-      <p class="text-center">Copyright &copy; Vitor Renato</p>
-      
+    <div class="text-center">
+      <p>Copyright &copy; Vitor Renato</p>
     </div>
   </footer>
 
@@ -118,10 +99,8 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <script src="js/app.js"></script>
 
 </html>
