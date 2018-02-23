@@ -1,17 +1,67 @@
 html, body {
-	font-family: "Yantramanav" !important;
-	font-size: 18px;
+	font-family: "Roboto" !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-a {
-	text-decoration: none !important;
+.brand {
+	font-size: 2em;
 }
 
-.box:hover {
+.bg-white {
+	background-color: #fff;
+}
+
+.bg-gray:hover {
+	background-color: #eee;
+}
+
+.bg-black {
+	background-color: #333;
+}
+
+.button {
+	background-color: #2574F3;
+}
+
+.button:hover {
+	background-color: #2168DA;
+}
+
+a {
+	color: #2574F3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2168DA;	
+}
+
+.card:hover {
 	transform: scale(1.03);
-	transition-duration: 0.3s;
+	transition-duration: 0.5s;
+}
+
+.avatar {
+	width: 5em;
+	height: auto;
+	border-radius: 100%;
+}
+
+.author {
+	font-size: 0.9em;
+	font-weight: 700;
+}
+
+.testimonials {
+	border: none;
+	border-radius: 0.5em;
+}
+
+.testimonials:hover {
+	transform: scale(1.03);
+	transition-duration: 1s;
+	box-shadow: 0.5em 0.5em 0.5em #ddd;
 }
