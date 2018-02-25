@@ -1,0 +1,55 @@
+html, body {
+	font-family: "Roboto" !important;
+	font-size: 18px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+.brand {
+	font-size: 2em;
+}
+
+.button {
+	border-radius: 2em;
+	background-color: #2574F3;
+}
+
+.button:hover {
+	background-color: #2168DA;
+}
+
+a {
+	color: #2574F3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2168DA;
+}
+
+span {
+	color: #2574F3;
+}
+
+.card {
+	border-radius: 5px;
+}
+
+.card:hover {
+	transition-duration: 0.3s;
+	box-shadow: 0em 1em 1em #eee;
+}
+
+.card-divider {
+	background-color: #2574F3 !important;
+}
+
+.card-divider a {
+	color: #fff !important;
+}
+
+.card-divider span {
+	color: #fff !important;
+}

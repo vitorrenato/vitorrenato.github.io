@@ -7,109 +7,158 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Vitor Renato | Front End Developer</title>
-  
-<!-- Compressed CSS -->
-<link rel="stylesheet" href="css/foundation.min.css">
+
+<!-- Compressed Foundation CSS-->
+<link rel="stylesheet" href="assets/css/foundation.min.css">
+
+<!-- Foundation CSS-->
+<link rel="stylesheet" href="assets/css/foundation.css">
+
+<!-- Testimonial Slider CSS -->
+<link rel="stylesheet" href="assets/css/testimonial-slider.css">
   
 <!--Style-->
-<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="assets/css/app.css">
 
 </head>
 <body>
 
   <header>
     
-    <!--Toggleable Menu-->
+    <!--navbar header-->
     <nav>
       <ul class="menu align-right">
-        <li class="brand">
-          <a id="dropdownMenuButton" type="button"><span class="fas fa-bars"></span></a>
-        </li>
+        <li class="brand"><a id="mobileMenuButton" href="#"><span class="fas fa-bars"></span></a></li>
       </ul>
 
-      <!--Navbar Header-->
-      <div id="navbarHeader">
-        <div>
-          <ul class="vertical menu">
-            <li class="bg-gray"><a href="">Home</a></li>
-            <li class="bg-gray"><a href="">Portfolio</a></li>
-            <li class="bg-gray"><a href="">Disciplines</a></li>
-            <li class="bg-gray"><a href=""><span class="fas fa-envelope"></span></a></li>
-          </ul>
-        </div>
+      <div id="navbarHeader">        
+        <ul class="vertical menu">
+          <li class="bg-gray"><a href="">Home</a></li>
+          <li class="bg-gray"><a href="">Portfolio</a></li>
+          <li class="bg-gray"><a href="">Disciplines</a></li>
+          <li class="bg-gray"><a href=""><span class="fas fa-envelope"></span></a></li>
+        </ul>
       </div>
+
     </nav>
+    <!--navbar header - close -->
 
   </header>
 
-  <!--Portfolio-->
   <main>
 
     <div class="grid-container">
       <img src="" alt="">
       <h1 class="text-center">Hi! I'm <span>Vitor</span></h1>
+      <h3 class="text-center">Front End Developer</h3>
+
       <p class="text-center">
         Sou formado em Desenvolvimento de Sistemas para Internet na Fatec Jales.<br>
         Atualmente moro em Jales-SP e trabalho como Designer Gráfico.
       </p>
-
-      <h3 class="text-center">Front End Developer</h3>
-      <p class="text-center">
-        <a href="mailto:#" class="button">Get in touch</a>
-      </p>
-    </div>
       
+      <div class="text-center">
+        <a class="button" href="mailto:#">Get in touch</a>
+      </div>
+    </div>
+    
+    <!-- portfolio -->      
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
 
         <div class="small-12 medium-6 large-4 cell">
           <div class="card">
-            <img src="" alt="">
+            <img src="assets/img/rectangle-1.jpg" alt="">
             <div class="card-section">
-              <p>Text 1</p>
+              <h3>Card title</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <div class="card-section"><a href="#" class="button">Go somewhere</a></div>
           </div>
         </div>
 
         <div class="small-12 medium-6 large-4 cell">
           <div class="card">
-            <img src="" alt="">
+            <img src="assets/img/rectangle-1.jpg" alt="">
             <div class="card-section">
-              <p>Text 1</p>
+              <h3>Card title</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <div class="card-section"><a href="#" class="button">Go somewhere</a></div>
           </div>
         </div>
 
         <div class="small-12 medium-6 large-4 cell">
           <div class="card">
-            <img src="" alt="">
+            <img src="assets/img/rectangle-1.jpg" alt="">
             <div class="card-section">
-              <p>Text 1</p>
+              <h3>Card title</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
+            <div class="card-section"><a href="#" class="button">Go somewhere</a></div>
           </div>
         </div>
 
       </div>
     </div>
+    <!-- portfolio - close -->
 
-    <!--Depoimentos-->
-    <h3 class="text-center">Testimonials</h3>
+    <!-- blog -->
+    <section id="blog">
+
+      <div class="grid-container">
+        <h3 class="text-center">Blog</h3>
+        <p class="text-center">The latests posts of my blog.</p>
+
+        <div class="grid-x grid-margin-x">
+          <div class="small-12 medium-12 large-4 cell">
+            <div class="card">
+              <img src="assets/img/rectangle-1.jpg" alt="">
+              <div class="card-section">
+                <h3>Card title</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-divider">
+                <a href="#">See more</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center">
+          <a class="button" href="#">See more posts</a>
+        </div>
+      </div>
+
+    </section>
     
-
+    <!-- blog - close -->
   </main>
+  <!-- portfolio - close -->
 
   <footer>
-    <div class="text-center">
-      <p>Copyright &copy; Vitor Renato</p>
+    <div class="grid-container">
+      <div class="text-center">
+        <p>Copyright &copy; Vitor Renato</p>
+      </div>
     </div>
   </footer>
 
 </body>
+  
+  <!-- jQuery -->
+  <script src="assets/js/jquery-3-3-1.js"></script>
+  
+  <!-- Foundation Javascript-->
+  <script src="assets/js/foundation.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- Compressed Foundation Javascript-->
+  <script src="assets/js/foundation.min.js"></script>
 
+  <!-- FontAwesome Javascript -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-  <script src="js/app.js"></script>
+  <script src="assets/js/app.js"></script>
 
 </html>
